@@ -7,8 +7,12 @@ html {
 .container {
   text-align: center;
   height: 100%;
-  padding: 16px;
+  padding: 16px; 
   box-sizing: border-box;
+  display: grid;
+  grid-template: 60px 60px 540px 60px /
+    300px 600px;
+  gap: 15px;
 }
 
 .container div {
