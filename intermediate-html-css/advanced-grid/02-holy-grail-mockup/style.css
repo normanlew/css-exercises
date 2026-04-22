@@ -48,7 +48,8 @@
   /* align-items: */
   position: relative;
   top: 9px;
-  left: 80px;
+  /* text-align: right; */
+  margin: 0px 0px 0px 120px;
 }
 
 .menu ul li {
